@@ -20,18 +20,22 @@ html, body{
   width: 55px;
   padding: 20px;
   margin: 0 3px;
-  border: 2px solid black;
+  border: none;
   border-radius: 9px;
   cursor: pointer;
   color: white;
   background-color:#2B2B2B;
+  box-shadow: -8px 8px 15px rgba(0,0,0,0.2);
+}
+.button:hover {
+  opacity: 0.4
 }
 #c3{
   font-size: 20px;
   width: 120px;
   padding: 20px;
   margin: 0 3px;
-  border: 2px solid black;
+  border: none;
   border-radius: 9px;
   cursor: pointer;
   color: white;
@@ -42,7 +46,7 @@ html, body{
   width: 55px;
   padding: 20px;
   margin: 0 3px;
-  border: 2px solid black;
+  border: none;
   border-radius: 9px;
   cursor: pointer;
   color: white;
@@ -55,7 +59,7 @@ html, body{
   padding: 10px;
   height:65px;
   margin: 0 3px;
-  border: 2px solid black;
+  border: none;
   border-radius: 9px;
   cursor: pointer;
   color: black;
@@ -66,10 +70,11 @@ html, body{
   margin: 8px 0;
 }
 .row input{
+  border:none;
   font-size: 20px;
   margin: 0;
   padding: 20px 0px;
-  border:2px solid black;
   border-radius: 5px;
   text-align: right;
+  box-shadow: -8px 8px 15px rgba(0,0,0,0.2);
 }
